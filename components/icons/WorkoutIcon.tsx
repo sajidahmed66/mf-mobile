@@ -1,6 +1,8 @@
-import React from "react";
+import React, { FC } from "react";
 import { Svg, Path } from "react-native-svg";
-const WorkoutIcon = () => {
+import { SVGIconProps } from "./HomeIcon";
+
+const WorkoutIcon: FC<SVGIconProps> = () => {
   return (
     <Svg width="20" height="21" viewBox="0 0 20 21" fill="none">
       <Path

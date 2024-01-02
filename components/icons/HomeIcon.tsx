@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { Svg, Path } from "react-native-svg";
 
-interface SVGIconProps {
+export interface SVGIconProps {
   width?: string;
   height?: string;
   color?: string;

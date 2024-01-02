@@ -1,7 +1,8 @@
-import React from "react";
+import React, { FC } from "react";
 import { Path, Svg } from "react-native-svg";
+import { SVGIconProps } from "./HomeIcon";
 
-const DietIcon = () => {
+const DietIcon: FC<SVGIconProps> = () => {
   return (
     <Svg width="24" height="24" viewBox="0 0 24 24" fill="none">
       <Path
