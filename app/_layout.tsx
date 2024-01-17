@@ -49,13 +49,16 @@ export default function RootLayout() {
 function RootLayoutNav() {
   // color scheme is used to get the color scheme of the devise
 
-  const colorScheme = useColorScheme();
+  // TODO uncomment this line when dark theme is added to the app
+  // const colorScheme = useColorScheme();
 
   return (
-    <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
+    // TODO uncomment this line when dark theme is added to the app
+    // <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
+    <ThemeProvider value={DefaultTheme}>
+      {/* all basic navigation goes here */}
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="modal" options={{ presentation: "modal" }} />
       </Stack>
     </ThemeProvider>
   );

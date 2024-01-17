@@ -1,6 +1,6 @@
 const tintColorLight = "#2f95dc";
 const tintColorDark = "#fff";
-const primary = " #37B677";
+const primary = "#37B677";
 const secondary = "#EAB824";
 const lightgray = "#9E9E9E";
 const gray = "#757575";
