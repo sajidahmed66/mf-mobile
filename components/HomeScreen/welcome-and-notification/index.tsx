@@ -1,21 +1,18 @@
 import { StyleSheet } from "react-native";
 import { Text, View } from "../../Themed";
 import React from "react";
-
+import Avatar from "./avatar";
+import NotificationIcon from "../../icons/NotificationActiveIcon";
+import Colors from "../../../constants/Colors";
+//
 const WelcomeandNotification = () => {
   return (
     <View style={styles.welcome}>
-      <View>
-        {/* avataer comp */}
-        <View></View>
-        <View>
-          <Text>Hi Member</Text>
-          <Text>How is your day today</Text>
-        </View>
-      </View>
-      {/* notification comp */}
-      <View>
-        <Text> Noptofication</Text>
+      <Avatar />
+      {/*   // * notification comp */}
+      {/* // ? TODO this will be converted into a pressable in the future */}
+      <View style={styles.notification}>
+        <NotificationIcon active={true} />
       </View>
     </View>
   );
@@ -31,5 +28,15 @@ const styles = StyleSheet.create({
     width: "100%",
     alignItems: "center",
     justifyContent: "space-between",
+  },
+  notification: {
+    backgroundColor: "#dfdfdf",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    width: 40,
+    height: 40,
+    borderRadius: 8,
+    padding: 1,
   },
 });
