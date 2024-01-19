@@ -3,7 +3,6 @@ import { Text, View } from "../../Themed";
 import React from "react";
 import Avatar from "./avatar";
 import NotificationIcon from "../../icons/NotificationActiveIcon";
-import Colors from "../../../constants/Colors";
 //
 const WelcomeandNotification = () => {
   return (

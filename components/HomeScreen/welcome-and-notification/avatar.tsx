@@ -1,7 +1,9 @@
 import { Image, StyleSheet } from "react-native";
 import React from "react";
-import { Text, View } from "../../Themed";
-import AvaterPaceholderImg from "../../../assets/images/avatar-male.png";
+// import { Text, View } from "@/";
+import AvaterPaceholderImg from "@/assets/images/avatar-male.png";
+import { Text, View } from "@/components/Themed";
+
 const Avatar = () => {
   return (
     <View style={styles.container}>

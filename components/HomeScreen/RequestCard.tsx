@@ -6,11 +6,12 @@ import {
   TouchableOpacity,
 } from "react-native";
 import React, { FC } from "react";
-import { Text, View } from "../Themed";
-import ThreeDotIcon from "../icons/ThreeDotIcon";
-import workoutImg from "../../assets/images/workout-req-placeholder.jpg";
-import dietImg from "../../assets/images/diet-placeholder-img.jpg";
-import Colors from "../../constants/Colors";
+import { Text, View } from "@/components/Themed";
+import workoutImg from "@/assets/images/workout-req-placeholder.jpg";
+import dietImg from "@/assets/images/diet-placeholder-img.jpg";
+import Colors from "@/constants/Colors";
+import ThreeDotIcon from "@/components/icons/ThreeDotIcon";
+
 export interface RequestCardProps {
   componentType: "workout" | "diet";
   requestHandler: (data: any) => void;
