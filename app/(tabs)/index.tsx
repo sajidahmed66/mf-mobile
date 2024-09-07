@@ -1,9 +1,8 @@
 import { ScrollView, StyleSheet } from "react-native";
-import { Text, View } from "../../components/Themed";
+import { Text, View } from "@/components/Themed";
 import Constants from "expo-constants";
-import Colors from "../../constants/Colors";
-import RequestCard from "../../components/HomeScreen/RequestCard";
-import WelcomeandNotification from "../../components/HomeScreen/welcome-and-notification";
+import RequestCard from "@/components/HomeScreen/RequestCard";
+import WelcomeandNotification from "@/components/HomeScreen/welcome-and-notification";
 
 export default function TabOneScreen() {
   return (
