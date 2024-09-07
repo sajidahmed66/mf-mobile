@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
   },
   notification: {
-    backgroundColor: "#dfdfdf",
+    backgroundColor: "#00000008",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
